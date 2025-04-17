@@ -9,7 +9,37 @@
   <body>
     <main>
       <form action="/submit">
-        <!-- Add your code here -->
+        <h1>Form</h1>
+        <section>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </section>
+        <section>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" />
+        </section>
+        <fieldset>
+          <legend>Favorite Character:</legend>
+          <input type="radio" id="spongebob" name="characters" />
+          <label for="spongebob">Spongebob</label>
+          <br />
+          <input type="radio" id="sandy" name="characters" />
+          <label for="sandy">Sandy</label>
+          <br />
+          <input type="radio" id="patrick" name="characters" />
+          <label for="patrick">Patrick</label>
+        </fieldset>
+        <fieldset>
+          <legend>Are you a fan of the show?</legend>
+          <input type="checkbox" id="watcher" name="fans" />
+          <label for="watcher">Yes, I have watched all episodes!</label>
+          <br />
+          <input type="checkbox" id="meme" name="fans" />
+          <label for="meme">Yes, it's got the best memes.</label>
+        </fieldset>
+        <!--TODO do we need the buttons to do anything?-->
+        <button>Submit</button>
+        <button>Reset</button>
       </form>
     </main>
   </body>
