@@ -12,7 +12,7 @@ I don't know enough to think of anything that could or should have been explaine
 
 ### Accessibility
 
-Enter your reflections on this section here.
+The issues were simple emough and I was able to modify code from the first section in order to fix the issues with radio buttons (without looking at the answers). I'm not sure how much the excersizes actually helped me learn, since they mostly focused on things we talked about in the first (HTML) section, but it's always good to go over things again.
 
 ### CSS
 
