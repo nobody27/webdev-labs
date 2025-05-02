@@ -3,18 +3,53 @@
 }
 
 /* Flex Container 1 */
-
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /* Flex Container 2 */
-
+.flex-container-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: end;
+}
 /* Flex Container 3 */
-
+.flex-container-3 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+  flex-wrap: wrap;
+  height: 400px;
+}
 /* use height: 400px; on the container */
 
 /* Flex Container 4 */
-
+.flex-container-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+}
 /* Flex Container 5 */
-
+.flex-container-5 {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  /* flex-wrap: wrap-reverse; */
+}
 /* Flex Container 6 */
+
+.flex-container-6 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 300px;
+}
 
 .flex-container-6 .flex-item {
   width: 400px;
