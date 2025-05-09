@@ -16,4 +16,16 @@ The issues were simple emough and I was able to modify code from the first secti
 
 ### CSS
 
-Enter your reflections on this section here.
+One thing I noticed was that it was difficult for me to discern between some different colors from the example picture. It might be helpful for the text to also indicate the color that it should appear as (or perhaps to have colors with more contrast between them).
+
+I didn't look at the answers, though I did get stuck in a few places and had to google some questions to figure out what to do.
+
+### Flexbox
+
+### Grid
+
+### Bootstrap
+
+### Javascript
+
+### Jquery

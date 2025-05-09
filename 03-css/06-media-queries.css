@@ -1,4 +1,64 @@
+header {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+header li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  header a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+
+  header li {
+    display: block;
+  }
+
+  body {
+    background: var(--purple);
+    color: var(--white);
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 769px) {
+  header a {
+    background-color: black;
+    display: inline;
+    color: white;
+    text-decoration: none;
+  }
+
+  header li {
+    display: inline;
+    padding: 5px;
+  }
+
+  body {
+    background: var(--orange);
+    color: var(--black);
+  }
+}
+
 @media (min-width: 1024px) {
+  header a {
+    background-color: black;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  header li {
+    display: inline;
+  }
+
   body {
     background: var(--green);
     color: var(--white);

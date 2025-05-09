@@ -2,3 +2,8 @@
   width: 600px;
   margin: 40px auto;
 }
+
+/* pseudo-class and pseudo-element selector */
+.container > .paragraph::first-letter {
+  font-size: 2.5em;
+}

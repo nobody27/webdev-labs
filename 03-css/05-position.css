@@ -4,23 +4,49 @@
   --darkgolden: #8f6805;
 }
 
+.main {
+  /* display: flex; */
+}
+
 .box {
   padding: 10px;
   color: var(--white);
 }
 
 .static {
+  display: inline-block;
+  position: static;
+  margin-top: 70px;
   background-color: var(--darkviolet);
+  width: 300px;
+  height: 400px;
 }
 
 .relative {
+  display: inline-block;
+  position: relative;
   background-color: var(--purple);
+  width: 300px;
+  height: 400px;
 }
 
 .absolute {
+  display: block;
+  position: absolute;
+  top: 0px;
   background-color: var(--maroon);
+  width: 100%;
+  height: 70px;
+  align-items: start;
 }
 
 .fixed {
+  display: block;
+  position: fixed;
+  bottom: 0px;
   background-color: var(--darkgolden);
+  width: 100%;
+  height: 70px;
+  align-items: end;
+  order: -1;
 }
