@@ -67,9 +67,12 @@ const fetchData = (url) => {
       console.groupEnd();
     })
     .catch((error) => console.error(error))
-    .finally(() =>
-      console.log("Fetch All Books - Promise Implementation - finally block")
-    );
+    .finally(() => {
+      console.log("Fetch All Books - Promise Implementation - finally block");
+      // remove the loading gif
+      const loader = document.querySelector("#loading");
+      loader.setAttribute("class", "d-none");
+    });
 };
 
 fetchData(url);
