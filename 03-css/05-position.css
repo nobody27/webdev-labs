@@ -4,10 +4,6 @@
   --darkgolden: #8f6805;
 }
 
-.main {
-  /* display: flex; */
-}
-
 .box {
   padding: 10px;
   color: var(--white);
