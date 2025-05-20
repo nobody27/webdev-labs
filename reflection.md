@@ -20,9 +20,9 @@ One thing I noticed was that it was difficult for me to discern between some dif
 
 I didn't look at the answers, though I did get stuck in a few places and had to google some questions to figure out what to do.
 
-### Flexbox
+### Flexbox and Grid
 
-### Grid
+I was able to complete most of both of these labs during the lesson and it was very helpful as a way to understand the material and how it works. I did ask questions during the lesson and got helpful answers, but did not need to look at solutions.
 
 ### Bootstrap
 
