@@ -26,6 +26,12 @@ I was able to complete most of both of these labs during the lesson and it was v
 
 ### Bootstrap
 
+I was able to complete most of the work based on the samples and what was shown in class, while also looking at the bootstrap example website. (In this case, I didn't even need to google very much). I will still need to see what can be done about a wave alert where WAVE expects the card titles to be h2 followed by h3, but that doesn't match the desired appearance.
+
+For the modal, I got most of my info (includeing some copy and pasting) from the bootstrap documentation website.
+
 ### Javascript
+
+This lab was very useful to me, especially learning about the existnace and usage of the different reduce/filture/map functions. I was able to complete the work without looking at the answers but I did use google a lot for help. While working on the event handlers, I hope I did the right thing by using javascript to add a second output section in which to show the input, better instructions would have been helpful.
 
 ### Jquery
