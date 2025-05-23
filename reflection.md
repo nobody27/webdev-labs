@@ -35,3 +35,5 @@ For the modal, I got most of my info (includeing some copy and pasting) from the
 This lab was very useful to me, especially learning about the existnace and usage of the different reduce/filture/map functions. I was able to complete the work without looking at the answers but I did use google a lot for help. While working on the event handlers, I hope I did the right thing by using javascript to add a second output section in which to show the input, better instructions would have been helpful.
 
 ### Jquery
+
+Jquery lab isn't required.

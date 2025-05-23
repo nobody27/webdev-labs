@@ -38,6 +38,7 @@ const reduceHouses = (characters) => {
 
   return characters.reduce((acc, curr) => {
     const house = curr.house;
+    // could be done with acc.hasOwnProperty(curr.house)
     acc[house] = (acc[house] || 0) + 1;
     return acc;
   }, {});
