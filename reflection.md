@@ -20,9 +20,13 @@ One thing I noticed was that it was difficult for me to discern between some dif
 
 I didn't look at the answers, though I did get stuck in a few places and had to google some questions to figure out what to do.
 
+The WAVE review of the selectors page is not clean because of contrast errors, and the WAVE reviewes of the position and media quesries pages are not clean because of a lack of headers
+
 ### Flexbox and Grid
 
 I was able to complete most of both of these labs during the lesson and it was very helpful as a way to understand the material and how it works. I did ask questions during the lesson and got helpful answers, but did not need to look at solutions.
+
+The 02-grid-areas page doesn't pass WAVE because of a lack of headings.
 
 ### Bootstrap
 
@@ -30,9 +34,13 @@ I was able to complete most of the work based on the samples and what was shown 
 
 For the modal, I got most of my info (includeing some copy and pasting) from the bootstrap documentation website.
 
+The Cards page has some WAVE alerts because they expect headings to work differently.
+
 ### Javascript
 
 This lab was very useful to me, especially learning about the existnace and usage of the different reduce/filture/map functions. I was able to complete the work without looking at the answers but I did use google a lot for help. While working on the event handlers, I hope I did the right thing by using javascript to add a second output section in which to show the input, better instructions would have been helpful.
+
+The fetch page didn't pass wave because of an issue with headings that couldn't be fixed while fitting the desired design.
 
 ### Jquery
 
